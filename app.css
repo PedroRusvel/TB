@@ -1,0 +1,101 @@
+nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos do banner */
+  .banner {
+    background-color: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos da introdução e seções abaixo */
+  
+  .intro,
+  .beneficios,
+  .recursos {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .intro h2,
+  .beneficios h2,
+  .recursos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p,
+  .beneficios p,
+  .recursos p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .beneficio-item,
+  .recurso-item {
+    margin-bottom: 40px;
+  }
+  
+  .beneficio-item i,
+  .recurso-item i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .imagem{
+    height: 500px ;
+    width: 500px;
+  }
